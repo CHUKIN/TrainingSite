@@ -5,13 +5,13 @@ using System.Web.Http;
 
 namespace TrainingSite
 {
-  public class Global : HttpApplication
-  {
-    protected void Application_Start()
+    public class Global : HttpApplication
     {
-      AreaRegistration.RegisterAllAreas();
-      GlobalConfiguration.Configure(WebApiConfig.Register);
-      RouteConfig.RegisterRoutes(RouteTable.Routes);
+        protected void Application_Start()
+        {
+            AreaRegistration.RegisterAllAreas();
+            GlobalConfiguration.Configure(WebApiConfig.Register);
+            RouteConfig.RegisterRoutes(RouteTable.Routes);
+        }
     }
-  }
 }
