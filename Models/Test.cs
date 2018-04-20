@@ -9,6 +9,7 @@ namespace TrainingSite.Models
 		[Key]
         [ForeignKey("Step")]
 		public int Id { get; set; }
+		public int? StepId { get; set; }
 		public virtual Step Step { get; set; }
 		public virtual List<Variant> VariantsList { get; set; }
 	}

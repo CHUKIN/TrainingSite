@@ -10,6 +10,6 @@ namespace TrainingSite.Models
  		public int Id { get; set; }
  		public virtual Step Step { get; set; }
 		 
-		 public string Url { get; set; }
+		public string Url { get; set; }
  	}
  }

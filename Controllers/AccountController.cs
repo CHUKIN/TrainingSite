@@ -4,12 +4,13 @@ using System.Web.Mvc;
 using System.Web.Security;
 using TrainingSite.Models;
 using TrainingSite.VIewModel;
+// ReSharper disable All
 
 namespace TrainingSite.Controllers
 {
 	public class AccountController : Controller
 	{
-		DataBaseContext db = new DataBaseContext();
+		private readonly DataBaseContext _db = new DataBaseContext();
 
 		public ActionResult Login()
 		{
@@ -23,7 +24,7 @@ namespace TrainingSite.Controllers
 			if (ModelState.IsValid)
 			{
 				// поиск пользователя в бд
-				var user = db.UsersList.FirstOrDefault(u => u.Login == model.Login && u.Password == model.Password);
+				var user = _db.UsersList.FirstOrDefault(u => u.Login == model.Login && u.Password == model.Password);
 
 				if (user != null)
 				{
@@ -50,16 +51,22 @@ namespace TrainingSite.Controllers
 		{
 			if (ModelState.IsValid)
 			{
-				var user = db.UsersList.FirstOrDefault(u => u.Login == model.Login);
+				var user = _db.UsersList.FirstOrDefault(u => u.Login == model.Login);
 
 				if (user == null)
 				{
 					// создаем нового пользователя
+					var role = _db.GroupsList.FirstOrDefault(i => i.Name == "User");
+					_db.UsersList.Add(new User {
+						Login = model.Login, 
+						Password = model.Password, 
+						//DateOfBirthday = DateTime.Today,
+						//EmploymentDate = DateTime.Today,
+						Group = role
+					});
+					_db.SaveChanges();
 
-					db.UsersList.Add(new User {Login = model.Login, Password = model.Password, DateOfBirthday = DateTime.Today, EmploymentDate = DateTime.Today});
-					db.SaveChanges();
-
-					user = db.UsersList.FirstOrDefault(u => u.Login == model.Login && u.Password == model.Password);
+					user = _db.UsersList.FirstOrDefault(u => u.Login == model.Login && u.Password == model.Password);
 
 
 					// если пользователь удачно добавлен в бд
