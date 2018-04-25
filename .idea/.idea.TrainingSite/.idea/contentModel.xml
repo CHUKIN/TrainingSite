@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\CHUKIN\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_TrainingSite.458124860.00" t="ExcludeRecursive" />
+    <e p="C:\Users\CHUKIN\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_TrainingSite.458124860.00" t="ExcludeRecursive" />
     <e p="C:\Users\CHUKIN\Desktop\Project\Диплом\Прога\TrainingSite" t="IncludeRecursive">
       <e p="App.config" t="Include" />
       <e p="App_Start" t="Include">
@@ -10,10 +10,14 @@
       </e>
       <e p="bin" t="ExcludeRecursive" />
       <e p="Content" t="Include">
-        <e p="bootstrap-theme.css" t="Include" />
-        <e p="bootstrap-theme.css.map" t="Include" />
-        <e p="bootstrap-theme.min.css" t="Include" />
-        <e p="bootstrap-theme.min.css.map" t="Include" />
+        <e p="bootstrap-grid.css" t="Include" />
+        <e p="bootstrap-grid.css.map" t="Include" />
+        <e p="bootstrap-grid.min.css" t="Include" />
+        <e p="bootstrap-grid.min.css.map" t="Include" />
+        <e p="bootstrap-reboot.css" t="Include" />
+        <e p="bootstrap-reboot.css.map" t="Include" />
+        <e p="bootstrap-reboot.min.css" t="Include" />
+        <e p="bootstrap-reboot.min.css.map" t="Include" />
         <e p="bootstrap.css" t="Include" />
         <e p="bootstrap.css.map" t="Include" />
         <e p="bootstrap.min.css" t="Include" />
@@ -22,16 +26,25 @@
       </e>
       <e p="Controllers" t="Include">
         <e p="AccountController.cs" t="Include" />
+        <e p="CompetencesController.cs" t="Include" />
+        <e p="CoursesController.cs" t="Include" />
         <e p="DepartmentsController.cs" t="Include" />
         <e p="GroupsController.cs" t="Include" />
         <e p="HomeController.cs" t="Include" />
+        <e p="LanguagesController.cs" t="Include" />
+        <e p="ModulesController.cs" t="Include" />
         <e p="PositionsController.cs" t="Include" />
+        <e p="StepsController.cs" t="Include" />
+        <e p="StoriesController.cs" t="Include" />
+        <e p="TestsController.cs" t="Include" />
+        <e p="TheoriesController.cs" t="Include" />
         <e p="UsersController.cs" t="Include" />
+        <e p="VariantsController.cs" t="Include" />
+        <e p="VideosController.cs" t="Include" />
       </e>
       <e p="favicon.ico" t="Include" />
       <e p="fonts" t="Include">
         <e p="glyphicons-halflings-regular.eot" t="Include" />
-        <e p="glyphicons-halflings-regular.svg" t="Include" />
         <e p="glyphicons-halflings-regular.ttf" t="Include" />
         <e p="glyphicons-halflings-regular.woff" t="Include" />
         <e p="glyphicons-halflings-regular.woff2" t="Include" />
@@ -71,22 +84,62 @@
         <e p="CustomRoleProvider.cs" t="Include" />
       </e>
       <e p="Scripts" t="Include">
+        <e p="bootstrap.bundle.js" t="Include" />
+        <e p="bootstrap.bundle.js.map" t="Include" />
+        <e p="bootstrap.bundle.min.js" t="Include" />
+        <e p="bootstrap.bundle.min.js.map" t="Include" />
         <e p="bootstrap.js" t="Include" />
+        <e p="bootstrap.js.map" t="Include" />
         <e p="bootstrap.min.js" t="Include" />
+        <e p="bootstrap.min.js.map" t="Include" />
+        <e p="esm" t="Include">
+          <e p="popper-utils.js" t="Include" />
+          <e p="popper-utils.js.map" t="Include" />
+          <e p="popper-utils.min.js" t="Include" />
+          <e p="popper-utils.min.js.map" t="Include" />
+          <e p="popper.js" t="Include" />
+          <e p="popper.js.map" t="Include" />
+          <e p="popper.min.js" t="Include" />
+          <e p="popper.min.js.map" t="Include" />
+        </e>
+        <e p="index.d.ts" t="Include" />
         <e p="jquery-1.10.2.intellisense.js" t="Include" />
-        <e p="jquery-1.10.2.js" t="Include" />
-        <e p="jquery-1.10.2.min.js" t="Include" />
-        <e p="jquery-1.10.2.min.map" t="Include" />
         <e p="jquery-1.9.1-vsdoc.js" t="Include" />
         <e p="jquery-1.9.1.js" t="Include" />
         <e p="jquery-1.9.1.min.js" t="Include" />
         <e p="jquery-1.9.1.min.map" t="Include" />
+        <e p="jquery-3.0.0-vsdoc.js" t="Include" />
+        <e p="jquery-3.0.0.js" t="Include" />
+        <e p="jquery-3.0.0.min.js" t="Include" />
+        <e p="jquery-3.0.0.min.map" t="Include" />
+        <e p="jquery-3.0.0.slim.js" t="Include" />
+        <e p="jquery-3.0.0.slim.min.js" t="Include" />
+        <e p="jquery-3.0.0.slim.min.map" t="Include" />
         <e p="jquery.validate-vsdoc.js" t="Include" />
         <e p="jquery.validate.js" t="Include" />
         <e p="jquery.validate.min.js" t="Include" />
         <e p="jquery.validate.unobtrusive.js" t="Include" />
         <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+        <e p="popper-utils.js" t="Include" />
+        <e p="popper-utils.js.map" t="Include" />
+        <e p="popper-utils.min.js" t="Include" />
+        <e p="popper-utils.min.js.map" t="Include" />
+        <e p="popper.js" t="Include" />
+        <e p="popper.js.map" t="Include" />
+        <e p="popper.min.js" t="Include" />
+        <e p="popper.min.js.map" t="Include" />
+        <e p="README.md" t="Include" />
         <e p="site.js" t="Include" />
+        <e p="umd" t="Include">
+          <e p="popper-utils.js" t="Include" />
+          <e p="popper-utils.js.map" t="Include" />
+          <e p="popper-utils.min.js" t="Include" />
+          <e p="popper-utils.min.js.map" t="Include" />
+          <e p="popper.js" t="Include" />
+          <e p="popper.js.map" t="Include" />
+          <e p="popper.min.js" t="Include" />
+          <e p="popper.min.js.map" t="Include" />
+        </e>
       </e>
       <e p="TrainingSite.csproj" t="IncludeRecursive" />
       <e p="TrainingSite.sln" t="IncludeFlat" />
@@ -99,6 +152,20 @@
         <e p="Account" t="Include">
           <e p="Login.cshtml" t="Include" />
           <e p="Register.cshtml" t="Include" />
+        </e>
+        <e p="Competences" t="Include">
+          <e p="Create.cshtml" t="Include" />
+          <e p="Delete.cshtml" t="Include" />
+          <e p="Details.cshtml" t="Include" />
+          <e p="Edit.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+        </e>
+        <e p="Courses" t="Include">
+          <e p="Create.cshtml" t="Include" />
+          <e p="Delete.cshtml" t="Include" />
+          <e p="Details.cshtml" t="Include" />
+          <e p="Edit.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
         </e>
         <e p="Departments" t="Include">
           <e p="Create.cshtml" t="Include" />
@@ -119,6 +186,20 @@
           <e p="Contact.cshtml" t="Include" />
           <e p="Index.cshtml" t="Include" />
         </e>
+        <e p="Languages" t="Include">
+          <e p="Create.cshtml" t="Include" />
+          <e p="Delete.cshtml" t="Include" />
+          <e p="Details.cshtml" t="Include" />
+          <e p="Edit.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+        </e>
+        <e p="Modules" t="Include">
+          <e p="Create.cshtml" t="Include" />
+          <e p="Delete.cshtml" t="Include" />
+          <e p="Details.cshtml" t="Include" />
+          <e p="Edit.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+        </e>
         <e p="Positions" t="Include">
           <e p="Create.cshtml" t="Include" />
           <e p="Delete.cshtml" t="Include" />
@@ -130,7 +211,49 @@
           <e p="_Layout.cshtml" t="Include" />
           <e p="Error.cshtml" t="Include" />
         </e>
+        <e p="Steps" t="Include">
+          <e p="Create.cshtml" t="Include" />
+          <e p="Delete.cshtml" t="Include" />
+          <e p="Details.cshtml" t="Include" />
+          <e p="Edit.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+        </e>
+        <e p="Stories" t="Include">
+          <e p="Create.cshtml" t="Include" />
+          <e p="Delete.cshtml" t="Include" />
+          <e p="Details.cshtml" t="Include" />
+          <e p="Edit.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+        </e>
+        <e p="Tests" t="Include">
+          <e p="Create.cshtml" t="Include" />
+          <e p="Delete.cshtml" t="Include" />
+          <e p="Details.cshtml" t="Include" />
+          <e p="Edit.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+        </e>
+        <e p="Theories" t="Include">
+          <e p="Create.cshtml" t="Include" />
+          <e p="Delete.cshtml" t="Include" />
+          <e p="Details.cshtml" t="Include" />
+          <e p="Edit.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+        </e>
         <e p="Users" t="Include">
+          <e p="Create.cshtml" t="Include" />
+          <e p="Delete.cshtml" t="Include" />
+          <e p="Details.cshtml" t="Include" />
+          <e p="Edit.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+        </e>
+        <e p="Variants" t="Include">
+          <e p="Create.cshtml" t="Include" />
+          <e p="Delete.cshtml" t="Include" />
+          <e p="Details.cshtml" t="Include" />
+          <e p="Edit.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+        </e>
+        <e p="Videos" t="Include">
           <e p="Create.cshtml" t="Include" />
           <e p="Delete.cshtml" t="Include" />
           <e p="Details.cshtml" t="Include" />

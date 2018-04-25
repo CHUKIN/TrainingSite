@@ -26,13 +26,23 @@
 				@{
 					if (User.IsInRole("Admin"))
 					{
-						<li>@Html.ActionLink("Departments", "Index", "Departments")</li>
-						<li>@Html.ActionLink("Users", "Index", "Users")</li>
-						<li>@Html.ActionLink("Groups", "Index", "Groups")</li>
-						<li>@Html.ActionLink("Positions", "Index", "Positions")</li>
+						<li>@Html.ActionLink("Depa", "Index", "Departments")</li>
+						<li>@Html.ActionLink("User", "Index", "Users")</li>
+						<li>@Html.ActionLink("Grou", "Index", "Groups")</li>
+						<li>@Html.ActionLink("Posi", "Index", "Positions")</li>
+						<li>@Html.ActionLink("Comp", "Index", "Competences")</li>
+						<li>@Html.ActionLink("Cour", "Index", "Courses")</li>
+						<li>@Html.ActionLink("Lang", "Index", "Languages")</li>
+						<li>@Html.ActionLink("Modu", "Index", "Modules")</li>
+						<li>@Html.ActionLink("Step", "Index", "Steps")</li>
+						<li>@Html.ActionLink("Stor", "Index", "Stories")</li>
+						<li>@Html.ActionLink("Test", "Index", "Tests")</li>
+						<li>@Html.ActionLink("Theo", "Index", "Theories")</li>
+						<li>@Html.ActionLink("Vari", "Index", "Variants")</li>
+						<li>@Html.ActionLink("Vide", "Index", "Videos")</li>
 					}
 				}
-			
+
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 				@{
@@ -45,9 +55,9 @@
 						<li>@Html.ActionLink("Login", "Login", "Account")</li>
 						<li>@Html.ActionLink("Reister", "Register", "Account")</li>
 					}
-				}		
+				}
 			</ul>
-			
+
 		</div>
 	</div>
 </div>
