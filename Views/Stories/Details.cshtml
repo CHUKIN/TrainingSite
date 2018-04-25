@@ -1,0 +1,58 @@
+﻿@model TrainingSite.Models.Story
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Story</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Step.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Step.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.User.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsOpen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsOpen)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsSuccessful)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsSuccessful)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsWrong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsWrong)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
